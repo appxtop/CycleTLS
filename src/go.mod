@@ -1,8 +1,8 @@
-module github.com/Danny-Dasilva/CycleTLS/src
+module github.com/appxtop/CycleTLS/src
 
 go 1.20
 
-replace github.com/Danny-Dasilva/CycleTLS/cycletls => ../cycletls
+replace github.com/appxtop/CycleTLS/cycletls => ../cycletls
 
 require (
 	github.com/Danny-Dasilva/CycleTLS/cycletls v1.0.23 // indirect
