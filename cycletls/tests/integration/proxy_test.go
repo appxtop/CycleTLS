@@ -5,10 +5,11 @@ package cycletls_test
 
 import (
 	//"fmt"
-	cycletls "github.com/Danny-Dasilva/CycleTLS/cycletls"
 	"log"
 	"runtime"
 	"testing"
+
+	cycletls "github.com/appxtop/CycleTLS/cycletls"
 )
 
 func TestProxySuccess(t *testing.T) {

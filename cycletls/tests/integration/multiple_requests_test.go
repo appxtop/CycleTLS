@@ -6,7 +6,7 @@ package cycletls_test
 import (
 	"testing"
 
-	cycletls "github.com/Danny-Dasilva/CycleTLS/cycletls"
+	cycletls "github.com/appxtop/CycleTLS/cycletls"
 )
 
 func TestDelayResponseOrder(t *testing.T) {

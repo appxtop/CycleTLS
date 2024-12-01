@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	cycletls "github.com/Danny-Dasilva/CycleTLS/cycletls"
+	cycletls "github.com/appxtop/CycleTLS/cycletls"
 )
 
 func TestCookies(t *testing.T) {
