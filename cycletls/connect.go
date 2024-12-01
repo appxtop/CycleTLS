@@ -49,6 +49,10 @@ type connectDialer struct {
 	cachedH2RawConn    net.Conn
 }
 
+func NewConnectDialer(proxyURLStr string, UserAgent string) (proxy.ContextDialer, error) {
+	return newConnectDialer(proxyURLStr, UserAgent)
+}
+
 // newConnectDialer creates a dialer to issue CONNECT requests and tunnel traffic via HTTP/S proxy.
 // proxyUrlStr must provide Scheme and Host, may provide credentials and port.
 // Example: https://username:password@golang.org:443
